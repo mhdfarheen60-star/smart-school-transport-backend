@@ -1,6 +1,24 @@
+# dependencies / build output
 node_modules/
 dist/
+build/
+coverage/
+
+# secrets and local environment files
 .env
-.env.local
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+atlas-credentials.env
+chgpass.js
+
+# local notes / tooling
+backend-file-tree.txt
+backend-complete-prompt.md
 *.log
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
