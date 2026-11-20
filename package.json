@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "Smart School Transportation Management System — Express + MongoDB",
   "scripts": {
+    "start": "npm run start --prefix backend",
     "dev": "npm run dev --prefix backend",
     "seed": "npm run seed --prefix backend",
     "test:e2e": "npm run test:e2e --prefix backend"
